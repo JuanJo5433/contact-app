@@ -1,0 +1,7 @@
+.contactListContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 96px;
+    margin: 0 16px;
+}

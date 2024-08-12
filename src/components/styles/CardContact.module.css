@@ -1,0 +1,102 @@
+.cardContainer{
+    width: 256px;
+    height: 288px;
+    max-width: 384px;
+    margin: 16px;
+    background-color: white;
+    border: 1px solid #e5e7eb; 
+    border-radius: 8px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1); 
+
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    
+
+    
+}
+.cardImg{
+    margin-top: 6px;
+    width: 112px;
+    height: 112px;
+    border-radius: 100%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1); 
+    box-sizing: border-box; 
+
+}
+.cardImgFavorite{
+    border-width: 4px;
+    border-color: #c1d72d;
+    border-style: solid;
+}
+.cardName{
+    margin-bottom: 4px;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #111827;
+}
+.cardEmail{
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280;
+}
+.cardLine{
+    all: unset;
+    background-color: rgba(128, 128, 128, 0.238);
+    height: 1px;
+    width: 75%;
+    margin-top: 20px;
+}
+.cardButtonContainer{
+    display: flex;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 20px;
+    justify-content: center;
+    
+    
+}
+.cardButtonRemove{
+    cursor: pointer;
+    color: #dc2626;
+    border: 1px #dc2626 solid;
+    border-radius: 8px;
+}
+.cardButtonRemove:hover{
+    background: #dc2626;
+    color: #ffffff;
+}
+.cardButtonIcon{
+    margin: 8px;
+}
+.cardButtonText{
+    margin: 0 8px;
+}
+.cardButtonFavorite{
+    margin-right: 16px;
+    cursor: pointer;
+    color: #c1d72d;
+    border: 1px #c1d72d solid;
+    border-radius: 8px;
+}
+.cardButtonFavorite:hover{
+   background-color: #c1d72d;
+   color: #ffffff;
+}
+.cardButtonDelete{
+    margin-left: 16px;
+    cursor: pointer;
+    color: #dc2626 ;
+    border: 1px #dc2626  solid;
+    border-radius: 8px;
+}
+.cardButtonDelete:hover{
+   background-color: #dc2626 ;
+   color: #ffffff;
+}

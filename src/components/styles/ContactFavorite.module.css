@@ -1,0 +1,12 @@
+.contactFavoriteContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 16px;
+}
+.noFavoritesMessage {
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
